@@ -41,21 +41,32 @@
       </framework-data>
     </AsfFrameworkConfig>
     <avrtool>com.atmel.avrdbg.tool.jtagice3plus</avrtool>
-    <avrtoolserialnumber>J30200042790</avrtoolserialnumber>
+    <avrtoolserialnumber>J30200032002</avrtoolserialnumber>
     <avrdeviceexpectedsignature>0x1E9609</avrdeviceexpectedsignature>
     <com_atmel_avrdbg_tool_jtagice3plus>
       <ToolOptions>
         <InterfaceProperties>
-          <JtagDbgClock>3000000</JtagDbgClock>
+          <JtagDbgClock>3232211</JtagDbgClock>
         </InterfaceProperties>
         <InterfaceName>JTAG</InterfaceName>
       </ToolOptions>
       <ToolType>com.atmel.avrdbg.tool.jtagice3plus</ToolType>
-      <ToolNumber>J30200042790</ToolNumber>
+      <ToolNumber>J30200032002</ToolNumber>
       <ToolName>JTAGICE3</ToolName>
     </com_atmel_avrdbg_tool_jtagice3plus>
     <avrtoolinterface>JTAG</avrtoolinterface>
-    <avrtoolinterfaceclock>3000000</avrtoolinterfaceclock>
+    <avrtoolinterfaceclock>3232211</avrtoolinterfaceclock>
+    <com_atmel_avrdbg_tool_simulator>
+      <ToolOptions xmlns="">
+        <InterfaceProperties>
+        </InterfaceProperties>
+        <InterfaceName>JTAG</InterfaceName>
+      </ToolOptions>
+      <ToolType xmlns="">com.atmel.avrdbg.tool.simulator</ToolType>
+      <ToolNumber xmlns="">
+      </ToolNumber>
+      <ToolName xmlns="">Simulator</ToolName>
+    </com_atmel_avrdbg_tool_simulator>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <ToolchainSettings>
@@ -154,6 +165,12 @@
     <Compile Include="button.h">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="datatypes.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="datatypes.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="lcd.c">
       <SubType>compile</SubType>
     </Compile>
@@ -173,6 +190,12 @@
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="pointer.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="structures.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="structures.h">
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>

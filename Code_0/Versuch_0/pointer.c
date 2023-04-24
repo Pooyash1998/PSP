@@ -52,55 +52,67 @@ void learningPointers(void) {
     //----------------------------------------------------------------------------
     // Step 1: allocate some memory to store some characters
     //----------------------------------------------------------------------------
-
+		if((memory = malloc(6)) == NULL) lcd_writeString("Error");
+	//----------------------------------------------------------------------------
     if (!memory) {
         lcd_writeProgString(PSTR("Could not alloc"));
         while (1);
     }
-    displayStep('1', 0, PSTR("Alloc Mem.Start:"), 0, (uint16_t)(memory));
+   displayStep('1', 0, PSTR("Alloc Mem.Start:"), 0, (uint16_t)(memory));
 
     //----------------------------------------------------------------------------
     // Step 2: learning to count with addresses and dereferencing
     //----------------------------------------------------------------------------
     displayStep('2', 1, PSTR("Dereferencing"), 0, 0);
-
-
+	//----------------------------------------------------------------------------
+	*(memory + 5) = alphabet[6];
     //----------------------------------------------------------------------------
     // Step 3: create a pointer and learn to use '*' and '&' operator
     //----------------------------------------------------------------------------
     charVar = 'A';
     displayStep('3', 1, PSTR("Character: "), charVar, 0);
 
+	uint8_t *charzeig = &charVar;
+	*charzeig = alphabet[2];
 
     displayStep('3', 1, PSTR("Character: "), charVar, 0);
 
     //----------------------------------------------------------------------------
     // Step 4: Call by Value and Call by Reference
     //----------------------------------------------------------------------------
-   // #warning IMPLEMENT CALL BY VALUE HERE
+	callByValue(alphabet[0]);
+	   
     displayStep('4', 0, PSTR(" Call by  Value: "), alphabet[0], 0);
 
-   // #warning IMPLEMENT CALL BY REFERENCE HERE
+	callByReference(alphabet);
+   
     displayStep('4', 0, PSTR(" Call by  Reference: "), alphabet[0], 0);
 
     //----------------------------------------------------------------------------
     // Step 5: pointer on pointer
     //----------------------------------------------------------------------------
-    
+	uint8_t **ppChar = &charzeig;
+	charzeig = alphabet;
+	*(memory + 5 - 1)  = **ppChar;
 	// include the following line after implementing step 5
-	//displayStep('5', 1, PSTR("**ppChar: "), **ppChar, 0);
+	displayStep('5', 1, PSTR("**ppChar: "), **ppChar, 0);
 
     //----------------------------------------------------------------------------
     // Step 6: pointer on structure
     //----------------------------------------------------------------------------
     sFirst sfoo = { .bar = 'Z' };
     displayStep('6', 1, PSTR("sfoo.bar: "), sfoo.bar, 0);
-
+	
+	typedef struct {sFirst *att1;} sSecond;
+	sSecond pStruct = {.att1 = &sfoo};
+	*memory = pStruct.att1->bar	;	
 
     //----------------------------------------------------------------------------
     // Step 7: function pointer
     //----------------------------------------------------------------------------
-
+	uint8_t (*funcPointer) (void) ;
+	funcPointer = charFunction ;
+	*(memory + 5 - 2) = funcPointer();
     displayStep('7', 0, PSTR("FunctionPointer Addr:"), 0, (uint16_t)charFunction);
 
     //----------------------------------------------------------------------------
