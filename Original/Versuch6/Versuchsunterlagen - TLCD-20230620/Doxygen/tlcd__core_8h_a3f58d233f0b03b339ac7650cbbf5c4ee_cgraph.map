@@ -1,0 +1,4 @@
+<map id="tlcd_sendCommand" name="tlcd_sendCommand">
+<area shape="rect" id="node1" title="Buffers a given command within the command buffer." alt="" coords="5,5,156,32"/>
+<area shape="rect" id="node2" href="$tlcd__core_8h.html#a9fdfeebbfe9ed030957579fdaac1d93a" title="Tries to read a byte from the display." alt="" coords="204,5,316,32"/>
+</map>

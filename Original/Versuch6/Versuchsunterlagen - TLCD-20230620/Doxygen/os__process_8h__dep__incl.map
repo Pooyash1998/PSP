@@ -1,0 +1,13 @@
+<map id="os_process.h" name="os_process.h">
+<area shape="rect" id="node1" title="Struct specifying a process." alt="" coords="800,5,907,32"/>
+<area shape="rect" id="node2" href="$os__scheduler_8h.html" title="Scheduling module for the OS." alt="" coords="711,80,830,107"/>
+<area shape="rect" id="node7" href="$os__taskman_8c.html" title=" " alt="" coords="955,304,1067,331"/>
+<area shape="rect" id="node3" href="$os__memory_8h.html" title="Library for OS memory management." alt="" coords="655,155,764,181"/>
+<area shape="rect" id="node6" href="$os__scheduler_8c.html" title="Scheduling module for the OS." alt="" coords="227,229,344,256"/>
+<area shape="rect" id="node8" href="$os__user__privileges_8h.html" title="User privileges specification used in part by the task manager." alt="" coords="876,229,1031,256"/>
+<area shape="rect" id="node10" href="$os__scheduling__strategies_8h.html" title="Scheduling library for the OS." alt="" coords="186,155,385,181"/>
+<area shape="rect" id="node4" href="$os__memory_8c.html" title=" " alt="" coords="486,229,594,256"/>
+<area shape="rect" id="node5" href="$os__memory__strategies_8c.html" title=" " alt="" coords="618,229,801,256"/>
+<area shape="rect" id="node9" href="$tlcd__core_8h.html" title="Core library for the touchpanel EA EDIPTFT43&#45;ATP." alt="" coords="368,229,461,256"/>
+<area shape="rect" id="node11" href="$os__scheduling__strategies_8c.html" title=" " alt="" coords="5,229,203,256"/>
+</map>

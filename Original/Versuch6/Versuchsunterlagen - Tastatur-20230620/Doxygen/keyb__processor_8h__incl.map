@@ -1,0 +1,4 @@
+<map id="keyb_processor.h" name="keyb_processor.h">
+<area shape="rect" id="node1" title="Keyboard data processor." alt="" coords="5,5,140,32"/>
+<area shape="rect" id="node2" href="$keyb__usart_8h.html" title="Keyboard USART driver." alt="" coords="20,80,125,107"/>
+</map>

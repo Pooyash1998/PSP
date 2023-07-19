@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['tlcd_5fchangedrawcolor_523',['tlcd_changeDrawColor',['../tlcd__graphic_8h.html#aacceee845b6c3e2056f1d13d9e506f26',1,'tlcd_graphic.c']]],
+  ['tlcd_5fchangepensize_524',['tlcd_changePenSize',['../tlcd__graphic_8h.html#a0442ea5b2506dbf7085d4e19b5fa21b3',1,'tlcd_graphic.c']]],
+  ['tlcd_5fcleardisplay_525',['tlcd_clearDisplay',['../tlcd__graphic_8h.html#a34dc420a98427570ba66be503edfc809',1,'tlcd_graphic.c']]],
+  ['tlcd_5fdefinecolor_526',['tlcd_defineColor',['../tlcd__graphic_8h.html#a4b976a4a4598925fd5bf8fe2050f9be7',1,'tlcd_graphic.c']]],
+  ['tlcd_5fdefinetoucharea_527',['tlcd_defineTouchArea',['../tlcd__graphic_8h.html#ad929cd29b11480c304dd5d92542b52d0',1,'tlcd_graphic.c']]],
+  ['tlcd_5fdrawbox_528',['tlcd_drawBox',['../tlcd__graphic_8h.html#ab373f9eac4237c1f7f2971ed4b25fb60',1,'tlcd_graphic.c']]],
+  ['tlcd_5fdrawchar_529',['tlcd_drawChar',['../tlcd__graphic_8h.html#a7467b73390efd95cf090ab814e9bd66a',1,'tlcd_graphic.c']]],
+  ['tlcd_5fdrawline_530',['tlcd_drawLine',['../tlcd__graphic_8h.html#a939c21ea899281848817287710141303',1,'tlcd_graphic.c']]],
+  ['tlcd_5fdrawpoint_531',['tlcd_drawPoint',['../tlcd__graphic_8h.html#a3c0ae97816503b6e4384ef527b52978d',1,'tlcd_graphic.c']]],
+  ['tlcd_5fhasnextbufferelement_532',['tlcd_hasNextBufferElement',['../tlcd__core_8h.html#af8562118e5bdf0415ed41f008a9d4d1b',1,'tlcd_core.c']]],
+  ['tlcd_5finit_533',['tlcd_init',['../tlcd__core_8h.html#a1b4c282d95af652e6ab61a33b65fd9a0',1,'tlcd_core.c']]],
+  ['tlcd_5finitbuffer_534',['tlcd_initBuffer',['../tlcd__core_8h.html#ac000cf1a155b511e8187ec8654ec6aee',1,'tlcd_core.c']]],
+  ['tlcd_5freadbyte_535',['tlcd_readByte',['../tlcd__core_8h.html#a9fdfeebbfe9ed030957579fdaac1d93a',1,'tlcd_core.c']]],
+  ['tlcd_5freaddata_536',['tlcd_readData',['../tlcd__core_8h.html#a7776a849a359c18de1689429f5b87984',1,'tlcd_core.c']]],
+  ['tlcd_5freadnextbufferelement_537',['tlcd_readNextBufferElement',['../tlcd__core_8h.html#a89aabb08c61b39f4d93d988306097333',1,'tlcd_core.c']]],
+  ['tlcd_5frequestdata_538',['tlcd_requestData',['../tlcd__core_8h.html#a32a6c0de5f3cafcd446de672ad4c66eb',1,'tlcd_core.c']]],
+  ['tlcd_5freset_539',['tlcd_reset',['../tlcd__core_8h.html#a2c340fed594ac839f7fb63fde9d78fbc',1,'tlcd_core.c']]],
+  ['tlcd_5fresetbuffer_540',['tlcd_resetBuffer',['../tlcd__core_8h.html#afb698d48de13c7c98bfe72f3f5d51b94',1,'tlcd_core.c']]],
+  ['tlcd_5fsendcommand_541',['tlcd_sendCommand',['../tlcd__core_8h.html#a3f58d233f0b03b339ac7650cbbf5c4ee',1,'tlcd_core.c']]],
+  ['tlcd_5fsetcursor_542',['tlcd_setCursor',['../tlcd__graphic_8h.html#a539d541c7b8057b456d762c98d1f944a',1,'tlcd_graphic.c']]],
+  ['tlcd_5fseteventcallback_543',['tlcd_setEventCallback',['../tlcd__parser_8h.html#a497209aeb774a789ae745dcb19035639',1,'tlcd_parser.c']]],
+  ['tlcd_5fwritenextbufferelement_544',['tlcd_writeNextBufferElement',['../tlcd__core_8h.html#a50143fb97258911b41c0c076f9448a0f',1,'tlcd_core.c']]],
+  ['tm_5fpage_545',['TM_PAGE',['../os__taskman_8c.html#afa6c23d7655f17427c1b5581f091c74c',1,'TM_PAGE(tm_page):&#160;os_taskman.c'],['../os__taskman_8c.html#abb664f8eafbdabe792434615e41fc678',1,'TM_PAGE(tm_rootpage):&#160;os_taskman.c'],['../os__taskman_8c.html#a1692a2b124360b0e2c04efd967ba8a29',1,'TM_PAGE(tm_null):&#160;os_taskman.c']]]
+];

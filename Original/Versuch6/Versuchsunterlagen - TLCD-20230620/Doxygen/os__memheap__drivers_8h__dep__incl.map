@@ -1,0 +1,13 @@
+<map id="os_memheap_drivers.h" name="os_memheap_drivers.h">
+<area shape="rect" id="node1" title="Drivers for OS heap management." alt="" coords="229,5,403,32"/>
+<area shape="rect" id="node2" href="$os__core_8c.html" title=" " alt="" coords="67,80,149,107"/>
+<area shape="rect" id="node3" href="$os__memheap__drivers_8c.html" title=" " alt="" coords="5,155,179,181"/>
+<area shape="rect" id="node4" href="$os__memory_8h.html" title="Library for OS memory management." alt="" coords="547,80,656,107"/>
+<area shape="rect" id="node7" href="$os__scheduler_8c.html" title="Scheduling module for the OS." alt="" coords="543,155,660,181"/>
+<area shape="rect" id="node11" href="$os__memory__strategies_8h.html" title="Memory allocation library for the OS." alt="" coords="225,80,407,107"/>
+<area shape="rect" id="node5" href="$os__memory_8c.html" title=" " alt="" coords="410,155,518,181"/>
+<area shape="rect" id="node6" href="$os__memory__strategies_8c.html" title=" " alt="" coords="203,155,386,181"/>
+<area shape="rect" id="node8" href="$os__taskman_8c.html" title=" " alt="" coords="763,229,875,256"/>
+<area shape="rect" id="node9" href="$os__user__privileges_8h.html" title="User privileges specification used in part by the task manager." alt="" coords="684,155,839,181"/>
+<area shape="rect" id="node10" href="$tlcd__core_8h.html" title="Core library for the touchpanel EA EDIPTFT43&#45;ATP." alt="" coords="913,155,1007,181"/>
+</map>

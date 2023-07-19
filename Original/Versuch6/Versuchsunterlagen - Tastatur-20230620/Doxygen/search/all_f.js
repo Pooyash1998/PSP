@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['pagehandlerwrapper_275',['pageHandlerWrapper',['../os__taskman_8c.html#abe083099a41966d5056f80c242f7832e',1,'os_taskman.c']]],
+  ['pageresult_276',['PageResult',['../struct_page_result.html',1,'']]],
+  ['pages_277',['pages',['../struct_param_stack.html#aad943c672912dfe5eaccf3af65c04dc2',1,'ParamStack']]],
+  ['pagestate_278',['PageState',['../struct_page_state.html',1,'PageState'],['../os__taskman_8c.html#a7c859f9337937dabe1129ee94c80f60b',1,'PageState():&#160;os_taskman.c']]],
+  ['param_279',['param',['../struct_page_state.html#af5db3df66a9031096e3aba02996aff42',1,'PageState']]],
+  ['paramstack_280',['ParamStack',['../struct_param_stack.html',1,'']]],
+  ['permissionrequest_281',['PermissionRequest',['../os__user__privileges_8h.html#a735a39b956d7cb00d379d841e24586db',1,'os_user_privileges.h']]],
+  ['pqueue_5fappend_282',['pqueue_append',['../os__scheduling__strategies_8c.html#a3ae034c3452457a90dd7c074ca5c3aaf',1,'pqueue_append(ProcessQueue *queue, ProcessID pid):&#160;os_scheduling_strategies.c'],['../os__scheduling__strategies_8h.html#a3ae034c3452457a90dd7c074ca5c3aaf',1,'pqueue_append(ProcessQueue *queue, ProcessID pid):&#160;os_scheduling_strategies.c']]],
+  ['pqueue_5fdropfirst_283',['pqueue_dropFirst',['../os__scheduling__strategies_8c.html#af2fe5737d2380feb249f6798c75279e0',1,'pqueue_dropFirst(ProcessQueue *queue):&#160;os_scheduling_strategies.c'],['../os__scheduling__strategies_8h.html#af2fe5737d2380feb249f6798c75279e0',1,'pqueue_dropFirst(ProcessQueue *queue):&#160;os_scheduling_strategies.c']]],
+  ['pqueue_5fgetfirst_284',['pqueue_getFirst',['../os__scheduling__strategies_8h.html#a91bfee52eb04e325a0be99bfc1fb00c0',1,'pqueue_getFirst(const ProcessQueue *queue):&#160;os_scheduling_strategies.c'],['../os__scheduling__strategies_8c.html#a91bfee52eb04e325a0be99bfc1fb00c0',1,'pqueue_getFirst(const ProcessQueue *queue):&#160;os_scheduling_strategies.c']]],
+  ['pqueue_5fhasnext_285',['pqueue_hasNext',['../os__scheduling__strategies_8c.html#a7e9a431fcff0d687b1dba810ba80bc7e',1,'pqueue_hasNext(const ProcessQueue *queue):&#160;os_scheduling_strategies.c'],['../os__scheduling__strategies_8h.html#a7e9a431fcff0d687b1dba810ba80bc7e',1,'pqueue_hasNext(const ProcessQueue *queue):&#160;os_scheduling_strategies.c']]],
+  ['pqueue_5finit_286',['pqueue_init',['../os__scheduling__strategies_8c.html#abcf6f70d0ed60b64437107c94ff0b9f7',1,'pqueue_init(ProcessQueue *queue):&#160;os_scheduling_strategies.c'],['../os__scheduling__strategies_8h.html#abcf6f70d0ed60b64437107c94ff0b9f7',1,'pqueue_init(ProcessQueue *queue):&#160;os_scheduling_strategies.c']]],
+  ['pqueue_5fremovepid_287',['pqueue_removePID',['../os__scheduling__strategies_8c.html#affb2ae62bc6e6ae2502d9dba66c1e5a7',1,'pqueue_removePID(ProcessQueue *queue, ProcessID pid):&#160;os_scheduling_strategies.c'],['../os__scheduling__strategies_8h.html#affb2ae62bc6e6ae2502d9dba66c1e5a7',1,'pqueue_removePID(ProcessQueue *queue, ProcessID pid):&#160;os_scheduling_strategies.c']]],
+  ['pqueue_5freset_288',['pqueue_reset',['../os__scheduling__strategies_8c.html#aa6830b1c1886efadb22b77bcc0775a7c',1,'pqueue_reset(ProcessQueue *queue):&#160;os_scheduling_strategies.c'],['../os__scheduling__strategies_8h.html#aa6830b1c1886efadb22b77bcc0775a7c',1,'pqueue_reset(ProcessQueue *queue):&#160;os_scheduling_strategies.c']]],
+  ['priority_289',['Priority',['../os__process_8h.html#a1bb679f7ad1508e942e35da9a0e7eabf',1,'os_process.h']]],
+  ['priorityconsttext_290',['priorityConstText',['../os__taskman_8c.html#a7f8306eccb29dffa80915593fc9476e5',1,'os_taskman.c']]],
+  ['process_291',['Process',['../struct_process.html',1,'Process'],['../os__process_8h.html#a3b5b0413545e0d4ff600b0a7203e3086',1,'Process():&#160;os_process.h']]],
+  ['process_5fstack_5fbottom_292',['PROCESS_STACK_BOTTOM',['../defines_8h.html#a5d7156541ae49491ce8c7c89dabf876a',1,'defines.h']]],
+  ['processid_293',['ProcessID',['../os__process_8h.html#a9ae6ab2a896fd7ccf2c04cd38f9fa6c9',1,'os_process.h']]],
+  ['processqueue_294',['ProcessQueue',['../struct_process_queue.html',1,'']]],
+  ['processstate_295',['ProcessState',['../os__process_8h.html#a373a58178f69d5e3e1de7516d105675e',1,'ProcessState():&#160;os_process.h'],['../os__process_8h.html#a188e89ad1abd0d38668fb83d89aa8891',1,'ProcessState():&#160;os_process.h']]],
+  ['procmutator_296',['procMutator',['../os__taskman_8c.html#abe6170c3799d91c140f779ae3f8a5bd9',1,'os_taskman.c']]],
+  ['procmutatorconfirm_297',['procMutatorConfirm',['../os__taskman_8c.html#aa954f74a0cab90c57923de152aa3f4d8',1,'os_taskman.c']]],
+  ['program_298',['Program',['../os__process_8h.html#a1855c0ea815dd2a3323638f2fda0c38a',1,'os_process.h']]],
+  ['program_5flinked_5flist_5fnode_299',['program_linked_list_node',['../structprogram__linked__list__node.html',1,'']]]
+];

@@ -1,0 +1,4 @@
+<map id="keyb_init_input_processor" name="keyb_init_input_processor">
+<area shape="rect" id="node1" title="Initializes layer 3, the input processor for data received from layer 2. Call this in keyb_start." alt="" coords="5,5,196,32"/>
+<area shape="rect" id="node2" href="$keyb__usart_8h.html#ae38a8e0264fba216c4a8b41a51b06159" title="Set the status of the LEDs on the keyboard." alt="" coords="244,5,381,32"/>
+</map>

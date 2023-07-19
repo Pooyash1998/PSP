@@ -1,0 +1,6 @@
+<map id="tlcd_readData" name="tlcd_readData">
+<area shape="rect" id="node1" title="Reads the complete contenet of the TLCD sending buffer into the local input buffer." alt="" coords="5,56,119,83"/>
+<area shape="rect" id="node2" href="$tlcd__core_8h.html#a9fdfeebbfe9ed030957579fdaac1d93a" title="Tries to read a byte from the display." alt="" coords="216,5,328,32"/>
+<area shape="rect" id="node3" href="$tlcd__core_8h.html#afb698d48de13c7c98bfe72f3f5d51b94" title="Resets a given buffer." alt="" coords="209,56,335,83"/>
+<area shape="rect" id="node4" href="$tlcd__core_8h.html#a50143fb97258911b41c0c076f9448a0f" title="Writes the given byte into the specified buffer." alt="" coords="167,107,377,133"/>
+</map>
