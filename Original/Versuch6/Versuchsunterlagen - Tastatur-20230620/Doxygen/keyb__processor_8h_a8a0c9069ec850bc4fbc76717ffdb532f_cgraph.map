@@ -1,5 +1,0 @@
-<map id="keyb_input_process" name="keyb_input_process">
-<area shape="rect" id="node1" title="Execute the processor for layer 2 received input." alt="" coords="5,31,156,57"/>
-<area shape="rect" id="node2" href="$keyb__scancode_8h.html#a652e66c51e41e9cdc9e1314532fc5cea" title="Translate a byte from the keyboard to an actual character." alt="" coords="219,5,408,32"/>
-<area shape="rect" id="node3" href="$keyb__scancode_8h.html#a4bfb3273017df20ae0b77fe5c803f52d" title="Translate a byte from the keyboard to the respective key type." alt="" coords="204,56,423,83"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="keyb_start" name="keyb_start">
-<area shape="rect" id="node1" title="Start the keyboard." alt="" coords="5,5,96,32"/>
-<area shape="rect" id="node2" href="$keyb__usart_8h.html#a2ffbe513c4e04cbf75820677b6be3f9b" title="Initialize the lowlevel communication interface and power supply to keyboard." alt="" coords="144,5,265,32"/>
-</map>
